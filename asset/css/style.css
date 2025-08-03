@@ -164,7 +164,7 @@ footer {
 }
 @media screen and (max-width: 768px){
 	.container {
-		width:90%;
+		width:100%;
 	}
 	header h1 {
 		text-align: center;
@@ -180,3 +180,69 @@ footer {
 		margin-bottom: 20px;
 	}
 }
+.kontak {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.kontak-box {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap; 
+}
+
+.kontak-box .box {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form-kontak {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-kontak input,
+.form-kontak textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.form-kontak textarea {
+    height: 120px;
+}
+
+.form-kontak button {
+    background-color: rgb(196, 33, 114);
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+   
+}
+
+.alamat-detail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.alamat-detail .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.alamat-detail i {
+    font-size: 1.5rem;
+    color: rebeccapurple;
+}
+
+@media (max-width: 768px) {
+    .kontak-box {
+        flex-direction: column;
+    }
+}
+
